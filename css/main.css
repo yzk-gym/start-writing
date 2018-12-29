@@ -39,7 +39,7 @@
  */
 .title-text {
     font-family: 'soseki';
-    font-size: 4.0rem;
+    font-size: 5.0rem;
     font-weight: 900;
     line-height: 1.9;
     margin-top:20px;
@@ -69,16 +69,57 @@
 }
 
 /**
- * 詳細
+ * 説明欄のスタイル
+ */
+.description-area {
+    margin-right: 30%;
+}
+
+/**
+ * 詳細のスタイル
  */
 .description {
     font-family: 'soseki';
     font-size: 3em;
     font-weight: 600;
     line-height: 1.9;
-    height: 500px;
+    height: 700px;
     width: 100%;
     -webkit-writing-mode: vertical-rl;
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
+}
+
+/**
+ * 境界線
+ */
+.line-bokuju {
+    border: 0;
+    height: 80px;
+    background: url('../images/bokuju_line.png') no-repeat top center;
+    margin: 80px 0px 80px 0px;
+}
+
+/**
+ * 参加ボタンエリア
+ */
+.sign-in-button-block {
+    text-align: center;
+    margin: 80px 0px 80px 0px;
+}
+
+/**
+ * 参加ボタン説明
+ */
+.sign-in-description {
+    font-family: 'soseki';
+    font-size: 2.5em;
+}
+
+/**
+ * 参加ボタン
+ */
+.sign-in-button {
+    font-family: 'soseki';
+    font-size: 3em;
 }
