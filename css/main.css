@@ -46,6 +46,28 @@
     text-align: center;
 }
 
+.title-text::before {
+    content: '';
+    display: inline-block;
+    position: relative;
+    height: 150px;
+    width: 100px;
+    background-image: url('../images/kadomatu.png');
+    background-size: contain;
+    vertical-align: middle;
+}
+
+.title-text::after {
+    content: '';
+    display: inline-block;
+    position: relative;
+    height: 150px;
+    width: 100px;
+    background-image: url('../images/kadomatu.png');
+    background-size: contain;
+    vertical-align: middle;
+}
+
 /**
  * トップ画像のスタイル
  */
