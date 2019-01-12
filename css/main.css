@@ -94,7 +94,7 @@
  * 説明欄のスタイル
  */
 .description-area {
-    margin-right: 30%;
+    margin: 0 20%;
 }
 
 /**
@@ -105,7 +105,7 @@
     font-size: 3em;
     font-weight: 600;
     line-height: 1.9;
-    height: 700px;
+    height: auto;
     width: 100%;
     -webkit-writing-mode: vertical-rl;
     -ms-writing-mode: tb-rl;
@@ -117,7 +117,7 @@
  */
 .line-bokuju {
     border: 0;
-    height: 80px;
+    height: 60px;
     background: url('../images/bokuju_line.png') no-repeat top center;
     margin: 80px 0px 80px 0px;
 }
@@ -142,6 +142,35 @@
  * 参加ボタン
  */
 .sign-in-button {
+    width: 8em;
+    margin: 0 40%;
+    bottom: 0;
     font-family: 'soseki';
     font-size: 3em;
+}
+
+/* ここから投票ページ用 */
+body{
+    text-align: center;
+}
+.kakizome {
+    padding: 2em 1em;
+    width: 80%;
+}
+
+.creator_name{
+
+}
+
+.button-text {
+    padding: 0 1em;
+    writing-mode: lr-tb;
+    font-size: 20px;
+}
+
+.ops {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
