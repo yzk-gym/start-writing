@@ -1,8 +1,7 @@
 const db = firebase.database();
 console.log(db);
-var voteCountAll = db.ref('/vote/count/all');
-console.log('テスト');
-console.log(voteCountAll);
+var voteCountAll = db.ref('/');
+console.log(voteCountAll)
 const toast_html = '<span class="toast-text">投票が完了しました！</span>'
 
 $(function () {
@@ -15,14 +14,14 @@ $(function () {
 });
 
 $('.js-count-btn').on('click', function() {
-  console.log(db);
   const name = $(this).data('name')
+  console.log(name)
   const cookie_key = 'vote-flag'
   let cookie_value = $.cookie(cookie_key)
 
   if (cookie_value !== 1) {
     cookie_name = $.cookie(name)
-    voteCountAll = db.ref('/vote/count/' + $(this).data('name'))
+    voteCountAll = db.ref($(this).data('name'))
     console.log(voteCountAll);
     updateData(name)
     $.cookie('vote-flag', 1)
