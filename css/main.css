@@ -82,34 +82,31 @@
  * でっかい画面
  */
 @media only screen and (min-width: 1000px) {
-    .top-image {
-        width: 100%;
-        height: 300px;
-        object-fit: cover;
-        object-position: 0% 0%;
-    }
+  .top-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0% 0%;
+  }
 }
 
 /**
  * 説明欄のスタイル
  */
 .description-area {
-    margin: 0 20%;
+  margin: 0;
 }
 
 /**
  * 詳細のスタイル
  */
 .description {
-    font-family: 'soseki';
-    font-size: 3em;
-    font-weight: 600;
-    line-height: 1.9;
-    height: auto;
-    width: 100%;
-    -webkit-writing-mode: vertical-rl;
-    -ms-writing-mode: tb-rl;
-    writing-mode: vertical-rl;
+  font-family: 'soseki';
+  font-size: 3em;
+  font-weight: 600;
+  line-height: 1.9;
+  height: auto;
+  width: 100%;
 }
 
 /**
@@ -127,7 +124,7 @@
  */
 .sign-in-button-block {
     text-align: center;
-    margin: 80px 0px 80px 0px;
+    margin: 100px 0px 80px 0px;
 }
 
 /**
@@ -153,13 +150,25 @@
 body{
     text-align: center;
 }
-.kakizome {
-    padding: 2em 1em;
-    width: 80%;
+
+.image-area{
+  height: 15em;
+  width: 100%;
+}
+.image-list {
+  display: inline;
+  list-style-type: none;
+  writing-mode: vertical-rl;
 }
 
-.creator_name{
+.kakizome {
+  padding: 10px;
+  width: 10em;
+}
 
+.creator-name{
+  margin: 1em 2em;
+  writing-mode: lr-tb;
 }
 
 .button-text {
@@ -173,4 +182,14 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
+}
+
+.toast-text {
+    font-family: 'yama-font';
+    font-size: 3em;
+}
+
+.text {
+  margin: 1em 1em 2em;
+  font-size: 30px;
 }
