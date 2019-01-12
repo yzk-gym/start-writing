@@ -22,7 +22,7 @@ $('.js-count-btn').on('click', function() {
 
   if (cookie_value !== 1) {
     cookie_name = $.cookie(name)
-    voteCountAll = db.ref('zan' + $(this).data('name'))
+    voteCountAll = db.ref('/vote/count/' + $(this).data('name'))
     console.log(voteCountAll);
     updateData(name)
     $.cookie('vote-flag', 1)
