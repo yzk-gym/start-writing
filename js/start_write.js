@@ -1,6 +1,8 @@
 const db = firebase.database();
+console.log(firebase.app().name)
 console.log(db);
-var voteCountAll = db.ref('zan');
+var voteCountAll = db.ref('/vote/count/all');
+console.log(voteCountAll);
 const toast_html = '<span class="toast-text">投票が完了しました！</span>'
 
 $(function () {
