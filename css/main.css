@@ -101,7 +101,6 @@
  * 詳細のスタイル
  */
 .description {
-  font-family: 'soseki';
   font-size: 3em;
   font-weight: 600;
   line-height: 1.9;
@@ -139,11 +138,11 @@
  * 参加ボタン
  */
 .sign-in-button {
-    width: 8em;
+  height: 4em;
+    width: 12em;
     margin: 0 40%;
     bottom: 0;
     font-family: 'soseki';
-    font-size: 3em;
 }
 
 /* ここから投票ページ用 */
@@ -152,6 +151,7 @@ body{
 }
 
 .image-area{
+  position: relative;
   height: 15em;
   width: 100%;
 }
@@ -172,7 +172,7 @@ body{
 }
 
 .button-text {
-    padding: 0 1em;
+    padding: 0.5em 1em;
     writing-mode: lr-tb;
     font-size: 20px;
 }
@@ -191,5 +191,37 @@ body{
 
 .text {
   margin: 1em 1em 2em;
+  font-size: 30px;
+}
+
+.ken_image {
+  height: 80%;
+  width: auto;
+}
+
+.hatimiri_image {
+  height: 100%;
+  width:auto;
+}
+
+.saya_image {
+  position: absolute;
+  bottom:2em;
+  left: 1em;
+}
+
+.saya_image2{
+  position: absolute;
+  bottom:1em;
+  right:1em;
+}
+
+.misa_image {
+  height: 80%;
+  width: 60%;
+}
+
+.btn-txt{
+  margin:0;
   font-size: 30px;
 }
