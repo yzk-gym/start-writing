@@ -139,15 +139,14 @@
  */
 .sign-in-button {
   height: 4em;
-    width: 12em;
-    margin: 0 40%;
-    bottom: 0;
-    font-family: 'soseki';
+  width: 12em;
+  bottom: 0;
+  font-family: 'soseki';
 }
 
 /* ここから投票ページ用 */
 body{
-    text-align: center;
+  text-align: center;
 }
 
 .image-area{
