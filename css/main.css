@@ -138,6 +138,7 @@
  * 参加ボタン
  */
 .sign-in-button {
+  position: relative;
   height: 4em;
   width: 12em;
   bottom: 0;
@@ -221,6 +222,11 @@ body{
 }
 
 .btn-txt{
+  position: absolute;
   margin:0;
+  top:auto;
+  bottom:auto;
+  left: 0;
+  right:0;
   font-size: 30px;
 }
