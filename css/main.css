@@ -50,8 +50,8 @@
     content: '';
     display: inline-block;
     position: relative;
-    height: 150px;
-    width: 100px;
+    height: auto;
+    width: auto;
     background-image: url('../images/kadomatu.png');
     background-size: contain;
     vertical-align: middle;
@@ -61,12 +61,21 @@
     content: '';
     display: inline-block;
     position: relative;
-    height: 150px;
-    width: 100px;
+    height: auto;
+    width: auto;
     background-image: url('../images/kadomatu.png');
     background-size: contain;
     vertical-align: middle;
 }
+
+.kadomatu{
+  height: auto;
+  width: 10%;
+}
+
+.title-image-block{
+  width: 100%;
+ }
 
 /**
  * トップ画像のスタイル
@@ -151,7 +160,6 @@ body{
 }
 
 .image-area{
-  position: relative;
   height: 15em;
   width: 100%;
 }
@@ -202,18 +210,6 @@ body{
 .hatimiri_image {
   height: 100%;
   width:auto;
-}
-
-.saya_image {
-  position: absolute;
-  bottom:2em;
-  left: 1em;
-}
-
-.saya_image2{
-  position: absolute;
-  bottom:1em;
-  right:1em;
 }
 
 .misa_image {
