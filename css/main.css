@@ -202,9 +202,10 @@ body{
   font-size: 30px;
 }
 
+
 .ken_image {
-  height: 80%;
-  width: auto;
+  height: auto;
+  width: 80%;
 }
 
 .hatimiri_image {
@@ -225,4 +226,32 @@ body{
   left: 0;
   right:0;
   font-size: 30px;
+}
+
+/** 結果発表ページ **/
+
+.result-text {
+  font-family: soseki;
+  font-size: 8.0rem;
+  font-weight: 900;
+  color: red;
+}
+
+.result-description {
+  margin: 2em 0;
+  font-size: 3rem;
+}
+
+.result-lead {
+  margin: 5em 0 3em;
+  font-size: 5rem;
+}
+
+.end-description {
+  margin: 3em 0;
+  font-size: 3rem;
+}
+
+.margin{
+  margin: 5em 0;
 }

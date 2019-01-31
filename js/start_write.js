@@ -1,13 +1,10 @@
 const db = firebase.database();
-console.log(db);
 var voteCountAll = db.ref('/');
-console.log(voteCountAll)
 const toast_html = '<span class="toast-text">投票が完了しました！</span>'
 
 $(function () {
   const cookie_key = 'vote-flag'
   let cookie_value = $.cookie(cookie_key)
-  console.log(cookie_value)
   if (cookie_value == 1) {
     $('.vote-button').addClass('disabled')
   }
@@ -22,7 +19,6 @@ $('.js-count-btn').on('click', function() {
   if (cookie_value !== 1) {
     cookie_name = $.cookie(name)
     voteCountAll = db.ref($(this).data('name'))
-    console.log(voteCountAll);
     updateData(name)
     $.cookie('vote-flag', 1)
     $('.js-count-btn').addClass('disabled')
