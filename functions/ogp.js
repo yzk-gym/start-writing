@@ -1,7 +1,8 @@
 exports.handler = function(event, context, callback) {
-  console.log('Hello Netlify Functions.')
+  console.log('Hello Netlify Functions.');
+  console.log(context);
   callback(null, {
     statusCode: 200,
-    body: `${context}`,
+    body: "テスト",
   });
 }
