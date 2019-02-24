@@ -7,6 +7,6 @@ exports.handler = function(event, context, callback) {
   console.log(event.queryStringParameters);
   callback(null, {
     statusCode: 200,
-    body: `<a herf="https://yzkamp.netlify.com">`,
+    body: `<p>テスト</p>`,
   });
 }
