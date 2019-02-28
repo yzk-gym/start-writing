@@ -1,5 +1,6 @@
 exports.handler = function(event, context, callback) {
-  console.log(context.queryStringParameters)
+  console.log("テスト")
+  console.log(context)
   callback(null, {
     statusCode: 200,
     body: `<html>
