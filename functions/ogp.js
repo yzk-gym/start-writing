@@ -1,7 +1,7 @@
 exports.handler = function(event, context, callback) {
   console.log("テスト")
   console.log(context)
-  consolw.log(event)
+  console.log(event)
   callback(null, {
     statusCode: 200,
     body: `<html>
