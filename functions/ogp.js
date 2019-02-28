@@ -1,5 +1,6 @@
 exports.handler = function(event, context, callback) {
-  const EVENT_ID = context.queryStringParameters['path']
+  console.log(context.queryStringParameters.path)
+  const EVENT_ID = context.queryStringParameters.path
   callback(null, {
     statusCode: 200,
     body: `<html>
