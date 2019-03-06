@@ -1,4 +1,7 @@
 // Initialize Firebase
+
+import firebase from 'firebase';
+
 var config = {
   apiKey: "AIzaSyD1yGsxATyeJ-LlwgtAgFZSk3juieScJys",
   authDomain: "first-write.firebaseapp.com",
@@ -8,3 +11,5 @@ var config = {
   messagingSenderId: "1090385959667"
 };
 firebase.initializeApp(config);
+
+export default firebase;
