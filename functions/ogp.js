@@ -1,5 +1,4 @@
-const firebase = require('js/firebase');
-
+const firebase = require('./js/firebase');
 exports.handler = function(event, context, callback) {
   console.log("test")
   console.log(firebase)
