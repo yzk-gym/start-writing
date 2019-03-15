@@ -1,7 +1,7 @@
-
+const firebase =  require('firebase');
 
 exports.handler = function(event, context, callback) {
-  const firebase =  require('firebase');
+
   var config = {
     apiKey: "AIzaSyD1yGsxATyeJ-LlwgtAgFZSk3juieScJys",
     authDomain: "first-write.firebaseapp.com",
