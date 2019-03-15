@@ -1,5 +1,8 @@
+const firebase = require('js/firebase');
+
 exports.handler = function(event, context, callback) {
-  const firebase = require('js/firebase');
+  console.log("test")
+  console.log(firebase)
   const EVENT_ID = event.queryStringParameters.path
   callback(null, {
     statusCode: 200,
